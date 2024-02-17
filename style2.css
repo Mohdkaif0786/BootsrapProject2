@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+#top_nav{background-color:#daac00 !important;
+padding:0.7% 8%;
+}
+#logo{
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    font-weight:900;
+    color:white;
+}
+/* .navbar{position:relative;
+    position: sticky;
+    top:0px;
+    border-bottom: 1px solid lightgray;
+
+} */
+.nav-item{padding-left:3px;}
+.nav-link{color: white!important;
+    font-size:20px;
+}
+#serachBox{
+    background:none;
+    background-color:#fcc302 !important;
+    color:white;
+    border:0px;
+    position: relative;
+    left: 36px;
+    box-shadow:5px 7px 5px 0px rgb(0,0,0,0.2 );
+    border-radius:0;
+}
+#serachBox::placeholder{color: white;}
+#serachBtn{
+    position:relative;
+    z-index:243;
+    border-radius: 0px;
+    color:white;
+    border:none;
+    background-color:#00bec9;
+}
+
+/*banner section styling start .................................................................................................... */
+#banner{background-color:#fcc302;
+padding:30px;
+padding-bottom:60x;
+}
+#banner_text h2{color:white;
+font-size:68px;
+font-weight: 400;
+}
+#banner_text p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size:22px;
+    color:whitesmoke
+}
+#banner_btn1{
+    background-color:lightseagreen;
+    color:white;
+    outline: none;
+    border: 2px solid lightseagreen;
+    padding:9px 10px;
+}
+#banner_btn2{
+    /* background-color:lightseagreen; */
+    color:white;
+    /* outline:1px white; */
+    border: 2px solid white;
+    padding:10px 8px;
+    margin-left: 20px;
+}
+
+/* this is service block.............................................................................................................. */
+#service{
+    padding: 60px 20px;
+  /* background-color: lightskyblue; */
+}
+#service h2{font-size: 35px;}
+#service_text p{color:darkgrey;
+}
+#service_btn{background-color:#fcc302;
+    padding:9px 10px;
+    border:2px solid #fcc302;
+    outline:0px;
+    color:white;
+    margin-bottom: 35px;;
+}    
+
+/* counter saction start............................................................................................................. */
+#counter{
+    /* border:1px solid red; */
+      /* background-image:url("image/countImage.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 30% 20%;
+  background-size: 100% auto;
+  background-color:#fcc302;
+  color:white;
+
+}
+#blur_bg{width:100%;
+height:auto;
+position:relative;
+border: 1px solid green;
+}
+.icon_box{
+    /* border: 1px solid red; */
+    text-align:center;
+    margin-bottom: 28px;
+}
+#icon1{font-size:52px;
+   /* margin-bottom: 20px;; */
+}
+.icon{
+    font-size:43px;
+}
+
+/* recent saction start,..................................................................................... */
+#blog{padding:55px;}
+#recent_cont_block{text-align: center;
+width:100%;
+height:auto;
+/* border:1px solid red; */
+}
+#recent_title{
+    font-size:57px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+}
+#recent_para{
+    font-size: 23px;
+    /* border:1px solid red; */
+    margin-bottom: 50px;
+
+}
+.card_img{width:100%}
+.article{padding:14px;
+        border:1px solid rgb(185,185,185);
+        border-top: none;
+
+}
+.article_title{
+    font-weight: bold;
+}
+.article_date{
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(4, 109, 109);
+}
+.article_dec{
+    color:grey;
+}
+.article_link{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(4, 109, 109);
+
+}
+/* footer saction start................................................................................... */
+#footer_saction{
+    padding: 70px 20px;
+    justify-content: center;
+
+}
+.footer_title{color:white}
+.footer_link{text-decoration: none;
+    font-weight: 600;
+    color:#C0C0C0;
+    font-size:16px
+}
+.footer_3{
+    /* border: 1px solid red; */
+    text-align: right;
+}
+#footer_search_box{
+  /* border: 1px solid red; */
+  position:relative;
+  overflow: hidden;
+}
+
+#footer_input{padding:7px 16px;
+background-color: #fcc302;
+overflow: hidden;
+outline: none;
+border:none;
+}
+#footer_btn{
+ font-size: 28px;
+ color:white;
+padding:0px 14px;
+position:absolute;
+top:0px;
+right:0px;
+background-color:#00bec9;
+border:none;
+outline:0px;
+
+}
+.social_icon_box{border: 1px solid red;}
+.social_icon{color:white;
+    font-size: 24px;
+    padding-left:5px;
+    padding-top:10px;
+}
+/* media query sytart from this line.......*....................................*.................................................... */
+@media only screen and (max-width:412px) {
+    #banner_text{border:1px solid green}
+    #banner_text h2{font-size:30px !important;
+    /* border: 1px solid cyan;; */
+    padding-left: 0px;
+    }    
+    #service_text h2{font-size: 30px!important;}
+}
+
+@media only screen and (max-width:500px){
+    #logo{
+        font-size:32px;
+    }
+    .nav-link{font-size: 17px;}
+    #top_nav{padding:0.7% 0.8%;}  
+    #banner{padding:20px 2px;
+    
+    } 
+    #banner_text h2{font-size:38px;
+    }
+    #banner_text p{font-size: 16px;}
+    .icon{font-size:35px ;}
+    #service h2{font-size:30px}
+    #icon1{font-size:38px;}
+    #recent_cont_block{
+        width:100%;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align:left;}
+    #recent_para{margin-bottom:30px;
+        /* border: 1px solid red; */
+    }    
+    #recent_title{font-size:38px;
+    }
+    #recent_para{font-size: 19px;}
+    #footer_saction{
+    text-align:left ; 
+    justify-content: left;
+    max-width:100%;  
+}}
+
+@media only screen and (max-width:878px) {
+    #banner_img{display: none;}   
+#banner_text{width:90%}
+#recent_title{font-size:48px;
+}
+#recent_para{font-size: 20px;}
+
+}
+@media only screen and (max-width:991px) {
+  #searchForm{margin-top:20px;
+    margin-bottom: 40px;
+    /* border: 1px solid red; */
+    position: relative;
+    left:-30px;}
+  
+  #banner h2{font-size: 37px;
+    /* border: 1px solid red; */
+}
+}
+
+@media only screen and (max-width:1000px){
+    #banner_text h2{font-size:40px}
+    #banner_img{padding-top:8%;
+       width:400px;
+    }
+    #banner{display:inline-block
+        padding:10px;}
+}
+@media only screen and (max-width:1280px){
+    #banner_text h2{font-size:50px}
+
+}
+
+
+
